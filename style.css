@@ -6,4 +6,24 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+section {
+  height: 100vh;
+  background: lightblue;
+}
+
+section:nth-of-type(even) {
+  background: indianred;
+}
+
+#back-to-top {
+  width: 80px;
+  height: 80px;
+  background: #656565;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
