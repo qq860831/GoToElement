@@ -21,3 +21,17 @@ section:nth-of-type(even){
     border-radius: 50px;
     cursor: pointer; //滑鼠移到圖形變成點擊指標
 }
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 15px;
+    margin-right: 20px;
+}
+span :: hover{
+    color:deepskyblue;
+}
+h1{
+    padding: 15px;
+    color:white;
+}

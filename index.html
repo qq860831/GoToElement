@@ -9,7 +9,7 @@
 </head>
 <body>
     <section>
-        <h1>頂端</h1>
+        <h1 id="top">頂端</h1>
         <!-- data-gte-target 目標，data-gte-offset 位移 -->
         <span data-gte-target="first" data-gte-offset="0">前往第一區</span>
         <span data-gte-target="second" data-gte-offset="100">前往第二區</span>
@@ -20,7 +20,8 @@
     <section>
         <h1 id="second">第二區</h1>
     </section>
-    <div id="back-to-top"></div>
+
+    <div id="back-to-top"data-gte-target="top" data-gte-offset="0" ></div>
 
     <script src="./GoToElement.js"></script>
 </body>
