@@ -2,7 +2,7 @@
 
 1.CDN
 ```
-<script src="https://qq860831.github.io/GoToElement/.goToElement.js"></script>
+<script src="https://qq860831.github.io/GoToElement/goToElement.js"></script>
 ```
 2.添加屬性
 ```
